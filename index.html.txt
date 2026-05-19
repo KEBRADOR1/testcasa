@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellaris Software</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: white;
+        }
+
+        header {
+            background-color: #111827;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header img {
+            width: 140px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background-color: #1f2937;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        h2 {
+            color: #60a5fa;
+        }
+
+        .servicios, .cotizacion, .reseñas {
+            background-color: #161b22;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .tarjeta {
+            background-color: #1f2937;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #111827;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="Logo stellaris.png" alt="Logo Stellaris">
+        <h1>STELLARIS SOFTWARE</h1>
+        <p>Soluciones tecnológicas para empresas y emprendedores</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#cotizacion">Cotización</a>
+        <a href="#reseñas">Reseñas</a>
+    </nav>
+
+    <section id="inicio">
+        <h2>¿Quiénes Somos?</h2>
+        <p>
+            En <strong>Stellaris Software</strong> desarrollamos soluciones digitales 
+            modernas para negocios y empresas. Creamos páginas web, sistemas de gestión,
+            software personalizado y aplicaciones adaptadas a las necesidades de cada cliente.
+        </p>
+    </section>
+
+    <section id="servicios" class="servicios">
+        <h2>Nuestros Servicios</h2>
+
+        <div class="tarjeta">
+            <h3>Desarrollo Web</h3>
+            <p>Creación de páginas web modernas y responsivas.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Sistemas Personalizados</h3>
+            <p>Software adaptado a empresas, tiendas y negocios.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Mantenimiento Técnico</h3>
+            <p>Soporte, actualizaciones y mejora de sistemas.</p>
+        </div>
+    </section>
+
+    <section id="cotizacion" class="cotizacion">
+        <h2>Modelos de Cotización</h2>
+
+        <div class="tarjeta">
+            <h3>Plan Básico - $100</h3>
+            <p>
+                Página informativa sencilla con diseño básico y formulario de contacto.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Plan Profesional - $300</h3>
+            <p>
+                Sitio web completo con diseño personalizado, base de datos y panel administrativo.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Plan Empresarial - Cotización Personalizada</h3>
+            <p>
+                Desarrollo de software avanzado según requerimientos del cliente.
+            </p>
+        </div>
+    </section>
+
+    <section id="reseñas" class="reseñas">
+        <h2>Reseñas de Clientes</h2>
+
+        <div class="tarjeta">
+            <p>
+                ⭐⭐⭐⭐⭐ <br>
+                "Stellaris creó la página web de mi negocio y aumentaron mis clientes."
+            </p>
+            <strong>- Carlos Mendoza</strong>
+        </div>
+
+        <div class="tarjeta">
+            <p>
+                ⭐⭐⭐⭐⭐ <br>
+                "Muy responsables y rápidos. El sistema que desarrollaron funciona perfecto."
+            </p>
+            <strong>- Andrea López</strong>
+        </div>
+
+        <div class="tarjeta">
+            <p>
+                ⭐⭐⭐⭐☆ <br>
+                "Excelente soporte técnico y atención personalizada."
+            </p>
+            <strong>- Roberto Salvatierra</strong>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Stellaris Software - Todos los derechos reservados</p>
+        <p>Contacto: stellarissoftware@gmail.com</p>
+    </footer>
+
+</body>
+</html>
